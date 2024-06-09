@@ -48,3 +48,13 @@ h3{
     margin-bottom: 0;
     text-align: center;
 }
+hr{
+  border-color:  white;
+  background-color: white;
+  height: 1.5px;
+
+}
+
+i{
+  text-align: center;
+}
