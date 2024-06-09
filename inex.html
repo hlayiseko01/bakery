@@ -3,21 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML and JavaScript Example</title>
+  <link rel="stylesheet"  href="style.css">
+
+  <title>bakery</title>
 </head>
 <body>
+<h1>GABIEY's BAKERY</h1>
+<p class="slogan">enjoy our sweet cakes made with love</p>
 
-<h1 id="heading">Hello, World!</h1>
+<h2>standad Cakes prices</h2>
+<div class="prices">
 
-<button onclick="changeText()">Change Text</button>
+  <article class="item">
+    <p class="flavor">small</p><p class="price">R300</p>
+  </article>
 
-<script>
-  // JavaScript function to change the text of the heading
-  function changeText() {
-    var headingElement = document.getElementById('heading');
-    headingElement.textContent = "Hello, JavaScript!";
-  }
-</script>
+  <article class="item">
+    <p class="flavor">medium</p><p class="price">R375</p>
+  </article>
+</div>
+<br>
+<section>
+  <h3>NOTE</h3>
+  <hr>
+<p><b>50% DEPOSIT IS REQUIRED TO SECURE YOUR ORDER</b></p>
+<p>Orders must be placed 5-days in advance</p>
+<p>Wedding cakes and personalized cakes must be ordered 2-weeks in advance</p>
+<p>50% deposit is non-refundable</p>
+<p>THERE ARE EXTRA CHARGES FOR LAST MINUTE ORDERS</p>
+</section>
 
 </body>
 </html>

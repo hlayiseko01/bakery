@@ -1,0 +1,50 @@
+body{
+    background-color: plum;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slogan{
+    text-align: center;
+    margin: 0;
+}
+.prices{
+    box-shadow: 4px 4px 3px pink;
+   
+    border-color: rgb(220, 110, 225);
+    background-color: rgb(245, 215, 221);
+}
+.prices p{
+    display: inline;
+}
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .flavor {
+    text-align: left;
+    width: 75%;
+    margin-left: 4px;
+  }
+  
+  .price {
+    text-align: right;
+    width: 24%;
+  }
+
+section p{
+    color:black ;
+    margin: 5px;
+  }
+
+h3{
+    margin-bottom: 0;
+    text-align: center;
+}
