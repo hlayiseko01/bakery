@@ -45,7 +45,8 @@ section p{
   }
 
 h3{
-    margin-bottom: 0;
+    margin: 5;
+    margin-bottom: -5px;
     text-align: center;
 }
 hr{
@@ -57,4 +58,25 @@ hr{
 
 i{
   text-align: center;
+}
+.images{
+  width:70% ;
+  margin: auto;
+  border: 2px solid ;
+  animation:fadeBorder 4s infinite;
+}
+img{
+  width: 45%;
+  box-shadow: 2px 2px 4px white;
+  margin: 6px; ;
+  border-radius: 50%;
+
+}
+@keyframes fadeBorder {
+  0%{
+    border-color: white;
+  }
+  100%{
+    border-color: palevioletred;
+  }
 }
