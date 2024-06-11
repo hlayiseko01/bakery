@@ -68,7 +68,7 @@ i{
 }
 
 img {
-  width: calc(30% - 14px); /* Adjust width to account for margins */
+  width: calc(40% - 14px); /* Adjust width to account for margins */
   box-shadow: 2px 2px 4px white;
   margin: 6px;
   border-radius: 50%;
