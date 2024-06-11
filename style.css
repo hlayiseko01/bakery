@@ -58,22 +58,24 @@ hr{
 
 i{
   text-align: center;
-}
-.images{
-  width:70% ;
+}.images {
+  width: 70%;
   margin: auto;
-  border: 2px solid ;
-  animation:fadeBorder 4s infinite;
-  display: block;
+  border: 2px solid;
+  animation: fadeBorder 4s infinite;
+  box-sizing: border-box;
+  text-align: center; /* Ensures images are centered within the div */
 }
-img{
-  width: 40%;
-  box-shadow: 2px 2px 4px white;
-  margin: 6px; ;
-  border-radius: 50%;
-  display: inline;
 
+img {
+  width: calc(30% - 14px); /* Adjust width to account for margins */
+  box-shadow: 2px 2px 4px white;
+  margin: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
 }
+
 @keyframes fadeBorder {
   0%{
     border-color: white;
