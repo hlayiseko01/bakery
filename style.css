@@ -70,6 +70,7 @@ img{
   box-shadow: 2px 2px 4px white;
   margin: 6px; ;
   border-radius: 50%;
+  display: inline-block;
 
 }
 @keyframes fadeBorder {
